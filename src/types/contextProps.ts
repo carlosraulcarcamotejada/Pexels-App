@@ -1,6 +1,3 @@
-import { PexelResp } from '../interfaces/pexel-resp';
-
-
 export type contextProps = {
     isOpenInput:boolean,
     setIsOpenInput:(isOpen:boolean)=>void,

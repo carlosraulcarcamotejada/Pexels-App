@@ -217,9 +217,8 @@ const ThemeMenu:FC = () => {
               border-indigo-300 shadow-sm`}
               >
                 {
-                  options.map( ({icon,option}) => {
-
-                    return ( <Menu.Item key={option} as="div">
+                  options.map( ({icon,option}) => 
+                      ( <Menu.Item key={option} as="div">
                     {
                       ({active}) => (
                       <button
@@ -245,7 +244,7 @@ const ThemeMenu:FC = () => {
                           </div>
                       </button>)
                     }
-                  </Menu.Item>)}
+                  </Menu.Item>)
                   
                   )
                 }

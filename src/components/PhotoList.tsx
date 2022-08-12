@@ -55,9 +55,8 @@ const PhotoList:FC = ():JSX.Element => {
                     'md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-7 4xl:grid-cols-8 5xl:grid-cols-10 6xl:grid-cols-11 h-screen overflow-y-auto'} `}>
           <AnimatePresence>
           {
-            data.map( (pexelResp:PexelResp) => pexelResp.photos.map(({id,alt,src:{large}}) => { 
-                //console.log({id,alt,src:{large}});
-              return(<PhotoCard key={id} id={id}  url={large} alt={alt} />)} ).filter( photo => id !== photo.key))
+            data.map( (pexelResp:PexelResp) => pexelResp.photos.map(({id,alt,src:{large}}) => 
+              (<PhotoCard key={id} id={id}  url={large} alt={alt} />) ).filter( photo => id !== photo.key))
           }
           </AnimatePresence>
         </motion.div>

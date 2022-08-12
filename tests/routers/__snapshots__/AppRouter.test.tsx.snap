@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Error /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="undefined"
+  >
+    <div
+      class="min-h-screen antialiased bg-gray-200 transition duration-700 dark:bg-black select-none pb-14"
+    >
+      <div
+        class="w-full h-14 bg-gray-100 dark:bg-gray-800 shadow-sm fixed  bg-opacity-80 backdrop-filter  backdrop-blur-2xl dark:bg-opacity-70 dark:backdrop-filter dark:backdrop-blur-2xl z-10"
+      >
+        <div
+          class="undefined flex justify-between items-center"
+        >
+          <div
+            class="flex justify-center items-center "
+          >
+            <div
+              class="flex justify-center items-center  h-14 w-14"
+            >
+              <img
+                alt="pexels-logo"
+                class="false  h-11 w-11 rounded-full border-2  border-gray-300"
+                src="/assets/pexels-logo.png"
+              />
+              <button
+                class="hidden touch-none h-14 w-14 flex justify-center items-center active:scale-75 transition-all duration-200"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-7 h-7  text-gray-600 dark:text-gray-400 md:hover:text-gray-400 md:dark:hover:text-gray-100 transition-all duration-200"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 19l-7-7 7-7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="ml-3 h-14 flex items-center md:mr-4"
+            >
+              <a
+                href="/"
+              >
+                <span
+                  class=" text-lg text-gray-600 dark:text-gray-300 font-semibold md:hover:text-gray-400 md:dark:hover:text-gray-100 transition-all duration-200"
+                >
+                  Pexels App
+                </span>
+              </a>
+            </div>
+            <form
+              class="hidden  group relative md:flex md:items-start h-14 md:w-80  "
+            >
+              <button
+                class="touch-none absolute flex items-center  px-3 md:left-2 inset-y-0  cursor-pointer md:h-10 md:hidden md:rounded-md "
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-7 w-7 fill-current text-gray-500 dark:text-gray-300  "
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <svg
+                aria-hidden="true"
+                class="hidden absolute md:flex items-center rounded-md  inset-y-1.5 mt-2 ml-2 h-7 w-7 fill-current group-focus-within:text-gray-400 dark:group-focus-within:text-gray-500 text-gray-300  dark:text-gray-600 "
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <button
+                class="hidden 
+          touch-none absolute flex items-center right-0 inset-y-0
+          px-3 cursor-pointer  md:inset-y-2 md:p-2 md:rounded-md "
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-7 w-7 fill-current text-gray-400 dark:text-gray-400 md:h-6 md:w-6"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+              <div
+                class="md:mt-2"
+              >
+                <input
+                  class="h-14 appearance-none transition-colors duration-75 border-0 ring-0 shadow-sm focus:ring-0 focus:border-0 pl-14 pr-14 w-full text-gray-700   md:focus:ring-2 md:focus:ring-teal-500 md:focus:outline-none md:bg-gray-100 md:focus:bg-gray-200 bg-gray-100 dark:bg-gray-800 dark:focus:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-500 placeholder:text-gray-400 md:w-80 md:pl-10 md:pr-8 md:rounded-md md:h-10 md:focus:shadow-md md:dark:focus:placeholder:text-gray-500"
+                  id="inputSearch"
+                  name="inputSearch"
+                  placeholder="Search"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </form>
+          </div>
+          <div
+            class="flex "
+          >
+            <div
+              class="relative"
+            >
+              <div>
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="touch-none active:scale-75 transition-transform duration-200  h-14 w-14 flex justify-center  items-center ring-0 border-0 cursor-pointer focus:outline-none "
+                  id="headlessui-menu-button-:r0:"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="hidden false h-7 w-7 fill-current text-gray-600 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="hidden false h-7 w-7 fill-current text-gray-600 dark:text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <button
+              class="font-semibold touch-none h-14 w-14 active:scale-75 flex justify-center items-center  md:hidden"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-7 w-7 fill-current text-gray-600 dark:text-gray-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="md:hidden"
+        >
+          <form
+            class="hidden  group relative md:flex md:items-start h-14 md:w-80  "
+          >
+            <button
+              class="touch-none absolute flex items-center  px-3 md:left-2 inset-y-0  cursor-pointer md:h-10 md:hidden md:rounded-md "
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-7 w-7 fill-current text-gray-500 dark:text-gray-300  "
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <svg
+              aria-hidden="true"
+              class="hidden absolute md:flex items-center rounded-md  inset-y-1.5 mt-2 ml-2 h-7 w-7 fill-current group-focus-within:text-gray-400 dark:group-focus-within:text-gray-500 text-gray-300  dark:text-gray-600 "
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <button
+              class="hidden 
+          touch-none absolute flex items-center right-0 inset-y-0
+          px-3 cursor-pointer  md:inset-y-2 md:p-2 md:rounded-md "
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-7 w-7 fill-current text-gray-400 dark:text-gray-400 md:h-6 md:w-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div
+              class="md:mt-2"
+            >
+              <input
+                class="h-14 appearance-none transition-colors duration-75 border-0 ring-0 shadow-sm focus:ring-0 focus:border-0 pl-14 pr-14 w-full text-gray-700   md:focus:ring-2 md:focus:ring-teal-500 md:focus:outline-none md:bg-gray-100 md:focus:bg-gray-200 bg-gray-100 dark:bg-gray-800 dark:focus:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-500 placeholder:text-gray-400 md:w-80 md:pl-10 md:pr-8 md:rounded-md md:h-10 md:focus:shadow-md md:dark:focus:placeholder:text-gray-500"
+                id="inputSearch"
+                name="inputSearch"
+                placeholder="Search"
+                type="text"
+                value=""
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="pt-28"
+      >
+        <div
+          class="flex flex-col items-center justify-center lg:px-8 2xl:self-start"
+        >
+          <h1
+            class="dark:text-gray-400  text-gray-600 mb-2 w-90 sm:w-136 md:w-185 lg:w-232 xl:w-279 2xl:w-368 3xl:w-420"
+          >
+            0 of 0 Results for: undefined
+          </h1>
+          <div
+            class="grid gap-2 grid-cols-2 sm:grid-cols-3 md:gap-3 content-start 
+         md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 3xl:grid-cols-9 4xl:grid-cols-11 5xl:grid-cols-12 "
+          />
+          <button
+            class="transition-all duration-200 h-10 py-2 px-4 rounded-md  w-full mt-10 dark:text-teal-400 text-teal-600 active:bg-teal-400/30 dark:active:dark:bg-teal-300/20 bg-teal-400/30 dark:bg-teal-300/20 hover:bg-teal-300/30 dark:hover:bg-teal-100/10 font-semibold "
+          >
+            <div
+              class="flex justify-center items-center"
+            >
+              <svg
+                class="text-gray-500 "
+                height="25"
+                viewBox="0 0 2400 2400"
+                width="25"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="200"
+                >
+                  <path
+                    d="M1200 600L1200 100"
+                  />
+                  <path
+                    d="M1200 2300L1200 1800"
+                    opacity="0.5"
+                  />
+                  <path
+                    d="M900 680.4L650 247.4"
+                    opacity="0.917"
+                  />
+                  <path
+                    d="M1750 2152.6L1500 1719.6"
+                    opacity="0.417"
+                  />
+                  <path
+                    d="M680.4 900L247.4 650"
+                    opacity="0.833"
+                  />
+                  <path
+                    d="M2152.6 1750L1719.6 1500"
+                    opacity="0.333"
+                  />
+                  <path
+                    d="M600 1200L100 1200"
+                    opacity="0.75"
+                  />
+                  <path
+                    d="M2300 1200L1800 1200"
+                    opacity="0.25"
+                  />
+                  <path
+                    d="M680.4 1500L247.4 1750"
+                    opacity="0.667"
+                  />
+                  <path
+                    d="M2152.6 650L1719.6 900"
+                    opacity="0.167"
+                  />
+                  <path
+                    d="M900 1719.6L650 2152.6"
+                    opacity="0.583"
+                  />
+                  <path
+                    d="M1750 247.4L1500 680.4"
+                    opacity="0.083"
+                  />
+                  <animatetransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    begin="0s"
+                    calcMode="discrete"
+                    dur="0.83333s"
+                    keyTimes="0;0.08333;0.16667;0.25;0.33333;0.41667;0.5;0.58333;0.66667;0.75;0.83333;0.91667"
+                    repeatCount="indefinite"
+                    type="rotate"
+                    values="0 1199 1199;30 1199 1199;60 1199 1199;90 1199 1199;120 1199 1199;150 1199 1199;180 1199 1199;210 1199 1199;240 1199 1199;270 1199 1199;300 1199 1199;330 1199 1199"
+                  />
+                </g>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="px-2 py-4 font-normal bg-gray-300 dark:bg-gray-900 shadow-sm select-none"
+    >
+      <p
+        class="dark:text-gray-500 text-gray-600"
+      >
+        Copyright © Carlos Cárcamo  · 
+        2022
+      </p>
+    </div>
+  </div>
+</div>
+`;

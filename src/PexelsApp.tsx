@@ -4,7 +4,7 @@ import AppProvider from './context/AppProvider';
 import fetcher from './helpers/fetcher';
 import AppRouter from './routers/AppRouter';
 
-const App:FC = ():JSX.Element => {
+const PexelsApp:FC = ():JSX.Element => {
 
 
   return (
@@ -16,4 +16,4 @@ const App:FC = ():JSX.Element => {
   );
 }
 
-export default App;
+export default PexelsApp;
